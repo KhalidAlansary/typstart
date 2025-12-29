@@ -1,0 +1,23 @@
+name: ci
+
+on:
+  pull_request:
+    branches:
+      - master
+    paths: "**/*.typ"
+  push:
+    branches:
+      - master
+    paths: "**/*.typ"
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: typstyle
+        uses: typstyle-rs/typstyle-action@v0.9.3
+        with:
+          opts: --check

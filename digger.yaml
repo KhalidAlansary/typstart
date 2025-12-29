@@ -1,0 +1,5 @@
+projects:
+  - name: typstart
+    dir: infra
+    opentofu: true
+    terraform: false
