@@ -1,0 +1,9 @@
+{
+	"$schema": "https://unpkg.com/wrangler@4.60.0/config-schema.json",
+	"name": "typstart",
+	"compatibility_date": "2026-01-22",
+	"pages_build_output_dir": "out",
+	"observability": {
+		"enabled": true
+	}
+}

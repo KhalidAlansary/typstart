@@ -1,0 +1,10 @@
+# Build output
+out
+
+# Environment variables
+.env
+
+# Opentofu files
+.terraform/
+*.tfstate
+*.tfstate.*
