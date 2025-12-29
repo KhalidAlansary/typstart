@@ -1,0 +1,11 @@
+{
+	"$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+	"image": "mcr.microsoft.com/devcontainers/base:debian",
+	"features": {
+		"ghcr.io/michidk/devcontainers-features/typst:1": {},
+		"ghcr.io/devcontainers-extra/features/opentofu:1": {}
+	},
+	"customizations": {
+		"vscode": { "extensions": ["myriad-dreamin.tinymist"] }
+	}
+}
