@@ -14,16 +14,16 @@ terraform {
   }
 }
 
-resource "cloudflare_pages_project" "tofu-test" {
+resource "cloudflare_pages_project" "typstart" {
   production_branch = "master"
-  name              = "tofu-test"
+  name              = "typstart"
   account_id        = "e577d53705718821e54be0a2346719a3"
 }
 
-resource "cloudflare_zero_trust_access_application" "tofu-test-app" {
-  name = "tofu-test-app"
+resource "cloudflare_zero_trust_access_application" "typstart" {
+  name = "typstart"
   destinations = [
-    { uri = "*.tofu-test.pages.dev" }
+    { uri = "*.typstart.pages.dev" }
   ]
   type       = "self_hosted"
   account_id = "e577d53705718821e54be0a2346719a3"
