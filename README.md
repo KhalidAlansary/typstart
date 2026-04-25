@@ -39,11 +39,11 @@ Optionally, install the following to manage the cloudflare project:
 - [OpenTofu](https://opentofu.org/docs/intro/install/)
 - [wrangler](https://developers.cloudflare.com/workers/wrangler/install-and-update/) using your favourite package manager:
   ```bash
-  npm install -g wrangler@4.60.0
+  npm install -g wrangler@4.85.0
   # or
-  pnpm add -g wrangler@4.60.0
+  pnpm add -g wrangler@4.85.0
   # or
-  bun add -g wrangler@4.60.0
+  bun add -g wrangler@4.85.0
   ```
 
 ### Option 2: GitHub Codespaces
