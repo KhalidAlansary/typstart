@@ -7,6 +7,8 @@
 		"ghcr.io/devcontainers-extra/features/cloudflare-wrangler:1": {}
 	},
 	"customizations": {
-		"vscode": { "extensions": ["myriad-dreamin.tinymist"] }
+		"vscode": {
+			"extensions": ["myriad-dreamin.tinymist", "opentofu.vscode-opentofu"]
+		}
 	}
 }
